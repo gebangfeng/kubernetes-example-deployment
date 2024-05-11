@@ -6,7 +6,6 @@ metadata:
     app: backend
 spec:
   # Answer of lesson 22
-  replicas: 1
   selector:
     matchLabels:
       app: backend
