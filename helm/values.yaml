@@ -1,0 +1,15 @@
+frontend:
+  image: gebangfeng/frontend
+  tag: 844b5bb
+  autoscaling:
+    averageUtilization: 90
+backend:
+  image: gebangfeng/backend
+  tag: 844b5bb
+  autoscaling:
+    averageUtilization: 90
+database:
+  enabled: true
+  uri: pg-service
+  username: postgres
+  password: postgres
